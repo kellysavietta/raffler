@@ -1,6 +1,1 @@
-Raffler.ApplicationController = Ember.Controller.extend
-  entries: []
-  actions:
-    addEntry: ->
-      alert @get('newEntryName')
-      @set('newEntryName', "")
+Raffler.ApplicationController = Ember.Controller.extend()
